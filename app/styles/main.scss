@@ -1,0 +1,24 @@
+// Main.scss
+// Variables and Mixins first
+@use "variables";
+@use "mixins";
+
+// Base styles
+@use "base/reset";
+@use "base/colors";
+@use "base/typography";
+
+// Components
+@use "components/links";
+@use "components/buttons";
+@use "components/cards";
+
+// Layouts
+@use "layouts/header";
+@use "layouts/content";
+@use "layouts/footer";
+
+// Pages
+@use "pages/home";
+@use "pages/docs";
+
